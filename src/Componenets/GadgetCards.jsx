@@ -16,7 +16,7 @@ export default function GadgetCards() {
             setGadgets(filterBYCategory)
         }
         else {
-            setGadgets(data.slice(0, 9))
+            setGadgets(data)
         }
     }, [data, gadget])
 
