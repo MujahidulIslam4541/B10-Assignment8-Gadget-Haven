@@ -4,9 +4,10 @@ import Buttons from './Buttons'
 import { Outlet, useLoaderData } from 'react-router-dom'
 import GadgetHeading from './GadgetHeading'
 
+
 export default function MainHome() {
     const categories = useLoaderData()
-    // console.log(categories)
+
     return (
         <div className='w-11/12 mx-auto'>
             {/* home section */}

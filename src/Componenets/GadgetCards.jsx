@@ -5,7 +5,6 @@ import Gadget from './Gadget';
 export default function GadgetCards() {
     const data = useLoaderData();
     const { gadget } = useParams();
-    console.log(gadget)
 
     const [gadgets, setGadgets] = useState([])
     useEffect(() => {

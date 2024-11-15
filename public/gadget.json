@@ -6,12 +6,12 @@
         "category": "Smartphone",
         "price": 1199,
         "description": "The latest iPhone with an advanced triple-camera system, A15 Bionic chip, and OLED display.",
-        "Specification": [
-            "128GB storage",
-            "6.1-inch display",
-            "A15 Bionic chip",
-            "5G capable"
-        ],
+        "Specification": {
+            "storage": "128GB",
+            "display": "6.1-inch",
+            "chip": "A15 Bionic",
+            "connectivity": "5G capable"
+        },
         "availability": true,
         "rating": 4.8
     },
@@ -22,12 +22,12 @@
         "category": "Laptop",
         "price": 1999,
         "description": "High-performance laptop with M1 Pro chip, suitable for professional use.",
-        "Specification": [
-            "512GB SSD",
-            "16GB RAM",
-            "M1 Pro chip",
-            "Retina display"
-        ],
+        "Specification": {
+            "storage": "512GB SSD",
+            "RAM": "16GB",
+            "chip": "M1 Pro",
+            "display": "Retina"
+        },
         "availability": true,
         "rating": 4.7
     },
@@ -38,12 +38,11 @@
         "category": "Headphone",
         "price": 249,
         "description": "Wireless earbuds with active noise cancellation and immersive sound quality.",
-        "Specification": [
-            "Active noise cancellation",
-            "Transparency mode",
-            "Water and sweat resistance",
-            "24-hour battery life"
-        ],
+        "Specification": {
+            "features": "Active noise cancellation, Transparency mode",
+            "resistance": "Water and sweat resistance",
+            "battery": "24-hour battery life"
+        },
         "availability": true,
         "rating": 4.6
     },
@@ -54,12 +53,11 @@
         "category": "Smartwatch",
         "price": 399,
         "description": "Smartwatch with advanced health and fitness tracking capabilities.",
-        "Specification": [
-            "Always-On Retina display",
-            "Blood oxygen sensor",
-            "ECG app",
-            "Swim-proof"
-        ],
+        "Specification": {
+            "display": "Always-On Retina",
+            "sensors": "Blood oxygen sensor, ECG app",
+            "water_resistance": "Swim-proof"
+        },
         "availability": true,
         "rating": 4.5
     },
@@ -70,12 +68,12 @@
         "category": "Smartphone",
         "price": 999,
         "description": "Flagship Android smartphone with a powerful camera and dynamic AMOLED display.",
-        "Specification": [
-            "256GB storage",
-            "6.5-inch display",
-            "Snapdragon 8 Gen 2",
-            "5G capable"
-        ],
+        "Specification": {
+            "storage": "256GB",
+            "display": "6.5-inch",
+            "chip": "Snapdragon 8 Gen 2",
+            "connectivity": "5G capable"
+        },
         "availability": true,
         "rating": 4.6
     },
@@ -86,12 +84,12 @@
         "category": "Laptop",
         "price": 1499,
         "description": "Compact and powerful laptop with an InfinityEdge display and Intel Core i7 processor.",
-        "Specification": [
-            "1TB SSD",
-            "16GB RAM",
-            "Intel Core i7",
-            "13.4-inch display"
-        ],
+        "Specification": {
+            "storage": "1TB SSD",
+            "RAM": "16GB",
+            "chip": "Intel Core i7",
+            "display": "13.4-inch"
+        },
         "availability": true,
         "rating": 4.8
     },
@@ -102,12 +100,12 @@
         "category": "Headphone",
         "price": 349,
         "description": "Industry-leading noise-canceling headphones with crystal-clear sound quality.",
-        "Specification": [
-            "Over-ear design",
-            "Bluetooth",
-            "30-hour battery life",
-            "Touch control"
-        ],
+        "Specification": {
+            "design": "Over-ear",
+            "connectivity": "Bluetooth",
+            "battery": "30-hour battery life",
+            "controls": "Touch control"
+        },
         "availability": true,
         "rating": 4.9
     },
@@ -118,12 +116,11 @@
         "category": "Smartwatch",
         "price": 599,
         "description": "Advanced fitness watch for athletes with GPS and training features.",
-        "Specification": [
-            "Built-in GPS",
-            "Heart rate monitor",
-            "VO2 max estimate",
-            "Water-resistant"
-        ],
+        "Specification": {
+            "features": "Built-in GPS, VO2 max estimate",
+            "sensors": "Heart rate monitor",
+            "water_resistance": "Water-resistant"
+        },
         "availability": true,
         "rating": 4.6
     },
@@ -134,12 +131,12 @@
         "category": "Tablet",
         "price": 1099,
         "description": "Large screen tablet with M1 chip and Liquid Retina XDR display for enhanced performance.",
-        "Specification": [
-            "256GB storage",
-            "12.9-inch display",
-            "M1 chip",
-            "5G capable"
-        ],
+        "Specification": {
+            "storage": "256GB",
+            "display": "12.9-inch",
+            "chip": "M1",
+            "connectivity": "5G capable"
+        },
         "availability": false,
         "rating": 4.7
     },
@@ -150,12 +147,12 @@
         "category": "Laptop",
         "price": 1299,
         "description": "Sleek laptop with powerful performance and touchscreen support.",
-        "Specification": [
-            "512GB SSD",
-            "8GB RAM",
-            "Intel Core i5",
-            "13.5-inch touchscreen"
-        ],
+        "Specification": {
+            "storage": "512GB SSD",
+            "RAM": "8GB",
+            "chip": "Intel Core i5",
+            "display": "13.5-inch touchscreen"
+        },
         "availability": true,
         "rating": 4.5
     },
@@ -166,62 +163,61 @@
         "category": "Headphone",
         "price": 149,
         "description": "True wireless earbuds with active noise cancellation and high-fidelity sound.",
-        "Specification": [
-            "True wireless",
-            "Active noise cancellation",
-            "24-hour battery life",
-            "IPX4 water-resistant"
-        ],
+        "Specification": {
+            "type": "True wireless",
+            "features": "Active noise cancellation",
+            "battery": "24-hour battery life",
+            "resistance": "IPX4 water-resistant"
+        },
         "availability": true,
         "rating": 4.4
     },
     {
         "id": 12,
         "product_title": "Apple AirTag",
-        "product_image": "https://example.com/images/apple_airtag.jpg",
+        "product_image": "https://i.ibb.co.com/8NF4F0t/download.jpg",
         "category": "Tablet",
         "price": 29,
         "description": "Simple and secure way to track your items using Apple’s Find My network.",
-        "Specification": [
-            "Bluetooth",
-            "UWB technology",
-            "Replaceable battery",
-            "Water-resistant"
-        ],
+        "Specification": {
+            "connectivity": "Bluetooth",
+            "technology": "UWB",
+            "battery": "Replaceable",
+            "resistance": "Water-resistant"
+        },
         "availability": true,
         "rating": 4.3
     },
     {
         "id": 13,
         "product_title": "Samsung Galaxy Tab S8",
-        "product_image": "https://example.com/images/galaxy_tab_s8.jpg",
+        "product_image": "https://i.ibb.co.com/tmqDXsC/images.jpg",
         "category": "Tablet",
         "price": 899,
         "description": "High-end Android tablet with S Pen support and immersive display.",
-        "Specification": [
-            "128GB storage",
-            "11-inch display",
-            "Snapdragon 8 Gen 1",
-            "S Pen included"
-        ],
+        "Specification": {
+            "storage": "128GB",
+            "display": "11-inch",
+            "chip": "Snapdragon 8 Gen 1",
+            "accessory": "S Pen included"
+        },
         "availability": true,
         "rating": 4.5
     },
     {
         "id": 14,
         "product_title": "Fitbit Charge 5",
-        "product_image": "https://example.com/images/fitbit_charge_5.jpg",
+        "product_image": "https://i.ibb.co.com/bb1C8wL/lol-117.jpg",
         "category": "Smartwatch",
         "price": 179,
         "description": "Fitness tracker with advanced health tracking features and built-in GPS.",
-        "Specification": [
-            "Built-in GPS",
-            "Stress management",
-            "Heart rate monitor",
-            "Sleep tracking"
-        ],
+        "Specification": {
+            "features": "Stress management, Sleep tracking",
+            "sensors": "Heart rate monitor",
+            "connectivity": "Built-in GPS"
+        },
         "availability": false,
-        "rating": 4.2
+        "rating": 4.8
     },
     {
         "id": 15,
@@ -230,17 +226,13 @@
         "category": "Smartphone",
         "price": 1299,
         "description": "The latest iPhone 16 Pro with advanced camera system, A18 Bionic chip, and ProMotion OLED display.",
-        "Specification": [
-            "256GB storage",
-            "6.3-inch ProMotion OLED display",
-            "A18 Bionic chip",
-            "5G capable",
-            "Triple-camera system with 108MP main sensor",
-            "Face ID with under-display sensor",
-            "Water and dust resistance (IP68)"
-        ],
+        "Specification": {
+            "storage": "256GB",
+            "display": "6.3-inch",
+            "chip": "A15 Bionic",
+            "connectivity": "5G capable"
+        },
         "availability": true,
         "rating": 4.9
     }
-    
 ]
