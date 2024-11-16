@@ -8,7 +8,7 @@ Gadget Haven combines functionality, style, and innovation to deliver a seamless
 ## 🚀 **Live Demo**
 
 ✨ **Explore Gadget Haven**:  
-[🔗 Live Link](rabid-door.surge.sh)
+[🔗 Live Link](https://rabid-door.surge.sh/)
 
 ---
 
