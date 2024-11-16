@@ -22,6 +22,18 @@ export default function Dashboard() {
       </div>
 
       <div className='mt-10'>
+
+        <div className='flex justify-between w-11/12 mx-auto'>
+
+          <h2 className='text-2xl font-semibold'>Card</h2>
+          <div className='flex gap-4'>
+            <button className='btn bg-[#9538E2] text-white'>Short By Price</button>
+            <button className='btn bg-[#9538E2] text-white'>Purchase</button>
+          </div>
+
+
+        </div>
+
         {
           gadget.map(gadget => <Card key={gadget.product_id} gadget={gadget}></Card>)
         }

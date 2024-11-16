@@ -16,7 +16,7 @@ export default function Gadget({ gadget }) {
                     <h2 className="card-title">{product_title}</h2>
                     <p>{price}$</p>
                     <div className="card-actions justify-start">
-                        <NavLink to={`/statistics/${id}`}>Details</NavLink>
+                        <NavLink className='px-4 py-2 border-2 border-[#9538E2] text-[#9538E2] font-semibold rounded-full' to={`/statistics/${id}`}>Details</NavLink>
                     </div>
                 </div>
             </div>
