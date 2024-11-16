@@ -1,5 +1,5 @@
 import React from 'react'
-import image from '../../../public/.trashed-1733676724-banner.jpg'
+import image from '../../../dist/assets/.trashed-1733676724-banner-eTjIDEmb.jpg'
 
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ export default function Home() {
       </div>
 
       <div className='absolute -mt-40'>
-        <img className='w-9/12  mx-auto p-2 border-2 rounded-xl' src={image} alt="" />
+        <img className='w-9/12  mx-auto p-2 border-2 rounded-xl' src={image}alt="" />
       </div>
     </div>
   )
